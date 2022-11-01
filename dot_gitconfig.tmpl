@@ -1,0 +1,20 @@
+# This is Git's per-user configuration file.
+[user]
+	email = "{{ .email }}"
+	name = "Daniel Castrillo"
+[alias]
+	st = status -sb
+	ll = log --oneline
+	last = log -1 HEAD --stat
+	cm = commit -m
+	ca = commit --amend
+	rv = remote -v
+	d = diff
+	gl = config --global -l
+	se = !git rev-list --all | xargs git grep -F
+	pf = push --force
+	pr = pull -r
+[help]
+	autocorrect = 20
+[push]
+	autoSetupRemote = true

@@ -1,0 +1,19 @@
+theme = "bogster"
+
+[editor]
+line-number = "relative"
+mouse = false
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "bar"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.search]
+smart-case = false
+
+[keys.insert]
+j = { k = "normal_mode" }
